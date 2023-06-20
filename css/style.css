@@ -1,0 +1,103 @@
+header nav ul li a{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    border: dotted;
+}
+
+.video iframe{
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clase{
+    display: flex;
+    justify-content: center;
+}
+
+section div img{
+    height: 300px;
+    width: 400px;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 600px;
+}
+
+
+
+.image img{
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+}
+h2{
+    text-align: center;
+    color: black;
+    justify-content: center;
+}
+.vento img{
+    height: 300px;
+    width: 500px;
+    flex-direction: row;
+}
+p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.camaro img{
+    align-items: center;
+    height: 300px;
+    width: 500px;
+}
+.megane img{
+    align-items: center;
+    height: 300px;
+    width: 500px;
+}
+
+
+
+.audir8 img{
+    align-items: end;
+    height: 300px;
+    width: 500px;
+}
+.auditt img{
+    align-items: center;
+    height: 300px;
+    width: 500px;
+}
+
+
+
+.bmw220 img{
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+}
+.bmwm3 img{
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+}
+
+
+
+
+
