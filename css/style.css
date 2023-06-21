@@ -3,20 +3,29 @@ header nav ul li a{
     justify-content: center;
 }
 
+body{
+    background-color: lightblue;
+}
+
 h1{
     text-align: center;
-    color: black;
+    color: blue;
     border: dotted;
 }
 
-.video iframe{
+.video{
     display: flex;
     justify-content: center;
 }
 
+main iframe{
+    height: 350px;
+    width: 600px;
+    margin: 40px;
+}
+
 .flex {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -28,20 +37,14 @@ h1{
 section div img{
     height: 300px;
     width: 400px;
+    margin: 30px;
 }
-iframe{
-    display: flex;
-    justify-content: center;
-    height: 300px;
-    width: 600px;
-}
-
 
 
 .image img{
-    justify-content: center;
     height: 300px;
     width: 500px;
+    margin: 68px;
 }
 h2{
     text-align: center;
@@ -51,11 +54,12 @@ h2{
 .vento img{
     height: 300px;
     width: 500px;
-    flex-direction: row;
+    margin: 50px;
 }
 p{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightskyblue;
 }
 
 
@@ -64,11 +68,13 @@ p{
     align-items: center;
     height: 300px;
     width: 500px;
+    margin: 68px;
 }
 .megane img{
     align-items: center;
     height: 300px;
     width: 500px;
+    margin: 68px;
 }
 
 
@@ -77,11 +83,13 @@ p{
     align-items: end;
     height: 300px;
     width: 500px;
+    margin: 68px;
 }
 .auditt img{
     align-items: center;
     height: 300px;
     width: 500px;
+    margin: 68px;
 }
 
 
@@ -90,14 +98,46 @@ p{
     justify-content: center;
     height: 300px;
     width: 500px;
+    margin: 68px;
 }
 .bmwm3 img{
     justify-content: center;
     height: 300px;
     width: 500px;
+    margin: 68px;
 }
 
+@media (max-width:552px) {
+    .media{
+       flex-direction: column;
+    }
+    section div img{
+        height: 100px;
+        width: 200px;
+    }
+    h2{
+        display: none;
+    }
 
+    main iframe{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    body {
+        background-color: rgb(216, 222, 226);
+    }
+    .image img{
+        margin: 0%;
+    }
+    .vento img{
+        margin: 0%;
+    }
+    main iframe{
+        margin: 5%;
+    }
+
+}
 
 
 
