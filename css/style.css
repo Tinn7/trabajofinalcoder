@@ -1,6 +1,7 @@
-header nav ul li a{
+header nav ul li {
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 body{
@@ -107,6 +108,11 @@ p{
     margin: 68px;
 }
 
+footer ul li {
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width:552px) {
     .media{
        flex-direction: column;
@@ -128,13 +134,44 @@ p{
         background-color: rgb(216, 222, 226);
     }
     .image img{
+        align-items: center;
         margin: 0%;
+        height: 200px;
+        width: 400px;
     }
+
+    main p{
+        margin: auto;
+    }
+
     .vento img{
+        align-items: center;
         margin: 0%;
+        height: 200px;
+        width: 400px;
     }
     main iframe{
         margin: 5%;
+    }
+
+    .imguno{
+        height: 70px;
+        width: 105px;
+    }
+
+    .imgdos{
+        height: 70px;
+        width: 105px;
+    }
+
+    .imgtres{
+        height: 70px;
+        width: 105px;
+    }
+
+    .imgcuatro{
+        height: 70px;
+        width: 105px;
     }
 
 }
