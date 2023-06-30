@@ -75,7 +75,7 @@ p{
     align-items: center;
     height: 300px;
     width: 500px;
-    margin: 68px;
+    margin: 65px;
 }
 
 
@@ -108,9 +108,12 @@ p{
     margin: 68px;
 }
 
-footer ul li {
-    display: flex;
-    justify-content: center;
+.gris ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 2%;
+    text-decoration: none;
 }
 
 @media (max-width:552px) {
@@ -173,6 +176,8 @@ footer ul li {
         height: 70px;
         width: 105px;
     }
+
+
 
 }
 
