@@ -1,0 +1,6 @@
+header nav ul li {   
+        display: map-get($header-pp, display);
+        justify-content: map-get($header-pp, justify-content);
+        text-decoration: map-get($header-pp, text-decoration);
+}
+

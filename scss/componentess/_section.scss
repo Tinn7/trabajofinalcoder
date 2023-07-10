@@ -1,0 +1,40 @@
+section div img{
+    height: $sz-img-height;
+    width: $sz-img-width;
+    margin: 68px;
+}
+section div h2{
+    border: none;
+}
+
+.flex {
+    @include titulos(flex, center)
+}
+
+.clase{
+    display: flex;
+    justify-content: center;
+}
+
+.vento img{
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    margin: 50px;
+}
+
+.megane img{
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    margin: 65px;
+}
+
+.bmwm3 img{
+    @extend %cars;
+}
+
+.auditt img{
+    @extend %cars;
+}
+

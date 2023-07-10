@@ -1,0 +1,37 @@
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+main iframe{
+    height: 350px;
+    width: 600px;
+    margin: 40px;
+}
+
+.golff img{
+    height: 300px;
+    width: 500px;
+    margin: 68px;
+}
+
+.camaro img{
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    margin: 68px;
+}
+
+.bmw220 img{
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    margin: 68px;
+}
+
+.audir8 img{
+    align-items: end;
+    height: 300px;
+    width: 500px;
+    margin: 68px;
+}

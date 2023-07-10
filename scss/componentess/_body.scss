@@ -1,0 +1,65 @@
+body{
+    background-color: lightblue;
+    h1{
+        text-align: center;
+        color: $colorh1;
+        border: dotted;
+        }
+        h2{
+            text-align: center;
+            color: $colorh2;
+            justify-content: center;
+            border: dashed;
+            }
+}
+
+@media (max-width:552px) {
+    .media{
+       flex-direction: column;
+    }
+    section div img{
+        height: 100px;
+        width: 200px;
+    }
+
+    main iframe{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    body {
+        background-color: rgb(216, 222, 226);
+    }
+
+    main p{
+        margin: auto;
+    }
+
+
+    main iframe{
+        margin: 5%;
+    }
+
+    .imguno{
+        height: 70px;
+        width: 105px;
+    }
+
+    .imgdos{
+        height: 70px;
+        width: 105px;
+    }
+
+    .imgtres{
+        height: 70px;
+        width: 105px;
+    }
+
+    .imgcuatro{
+        height: 70px;
+        width: 105px;
+    }
+
+
+
+}
