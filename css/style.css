@@ -16,12 +16,17 @@
 header nav ul{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  margin: 2px;
+  margin: 0%;
   text-decoration: none;
   background-color: rgba(69, 171, 218, 0.856);
   padding: 20px 40px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav{
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 header nav ul li a{
@@ -304,23 +309,23 @@ body h2 {
     width: auto;
   }
   .imguno {
-    height: 70px;
-    width: 105px;
+    height: 100px;
+    width: 115px;
     margin: 20px;
   }
   .imgdos {
-    height: 70px;
-    width: 105px;
+    height: 100px;
+    width: 115px;
     margin: 20px;
   }
   .imgtres {
-    height: 70px;
-    width: 105px;
+    height: 100px;
+    width: 115px;
     margin: 20px;
   }
   .imgcuatro {
-    height: 70px;
-    width: 105px;
+    height: 100px;
+    width: 115px;
     margin: 20px;
   }
 
@@ -384,6 +389,8 @@ body h2 {
     padding: 5px 5px;
     margin: 5px;
   }
+
+
 
   h3{
     display: none;
