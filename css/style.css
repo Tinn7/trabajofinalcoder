@@ -9,8 +9,57 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-  margin: 2%;
+  margin: 0;
+  padding: 10px;
+}
+
+header nav ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 2px;
   text-decoration: none;
+  background-color: rgba(69, 171, 218, 0.856);
+  padding: 20px 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav a{
+  font-weight: 600;
+}
+
+nav a:hover{
+  color: blue;
+}
+
+h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+h3 a:hover{
+  color: blue;
+}
+
+footer div ul{
+list-style: none;
+}
+
+footer div ul li a:hover{
+  color: blue;
+}
+
+footer div ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  background-color: rgba(69, 171, 218, 0.856);
+  padding: 10px 50px;
 }
 
 section div img {
@@ -28,9 +77,32 @@ section div h2 {
   justify-content: center;
 }
 
+.flex h3 a{
+  display: grid;
+  grid-template-columns:1fr;
+  margin-top: 50px;
+}
+
 .clase {
   display: flex;
   justify-content: center;
+}
+
+.clase h3 a{
+  display: grid;
+  grid-template-columns:1fr;
+  margin-top: 50px;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+}
+
+main iframe {
+  height: 250px;
+  width: 500px;
+  margin: 25px;
 }
 
 .vento img {
@@ -40,6 +112,12 @@ section div h2 {
   margin: 50px;
 }
 
+.ventito{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
 .megane img {
   align-items: center;
   height: 300px;
@@ -47,21 +125,24 @@ section div h2 {
   margin: 65px;
 }
 
-.video {
-  display: flex;
-  justify-content: center;
+.megancito{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 
-main iframe {
-  height: 350px;
-  width: 600px;
-  margin: 40px;
-}
 
 .golff img {
   height: 300px;
   width: 500px;
-  margin: 68px;
+  margin: -10px;
+  padding: 50px;
+}
+
+.golfito{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 
 .camaro img {
@@ -71,6 +152,12 @@ main iframe {
   margin: 68px;
 }
 
+.camarito{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
 .bmw220 img {
   justify-content: center;
   height: 300px;
@@ -78,11 +165,35 @@ main iframe {
   margin: 68px;
 }
 
+.bmw220cito{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.bmwm3cito{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
 .audir8 img {
-  align-items: end;
+  align-items: center;
   height: 300px;
   width: 500px;
   margin: 68px;
+}
+
+.audir8cito{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.audittcito{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 
 header nav ul li {
@@ -122,27 +233,106 @@ body h2 {
   body {
     background-color: rgb(216, 222, 226);
   }
-  main p {
+  p{
+    display: grid;
+    grid-template-columns: 100%;
     margin: auto;
+    padding: 10px 20px;
   }
   main iframe {
     margin: 5%;
+    height: auto;
+    width: auto;
   }
   .imguno {
     height: 70px;
     width: 105px;
+    margin: 20px;
   }
   .imgdos {
     height: 70px;
     width: 105px;
+    margin: 20px;
   }
   .imgtres {
     height: 70px;
     width: 105px;
+    margin: 20px;
   }
   .imgcuatro {
     height: 70px;
     width: 105px;
+    margin: 20px;
+  }
+
+  .golff img{
+    height: 130px;
+    width: 160px;
+    margin: 0%;
+    padding: 5px;
+  }
+
+  .vento img{
+    height: 130px;
+    width: 160px;
+    margin: 0%;
+    padding: 5px;
+  }
+
+  .camaro img{
+    height: 130px;
+    width: 160px;
+    padding: 5px;
+    margin: 0%;
+  }
+
+  .megane img{
+    height: 130px;
+    width: 160px;
+    margin: 0%;
+    padding: 5px;
+  }
+
+  .audir8 img{
+    height: 130px;
+    width: 160px;
+    margin: 0%;
+    padding: 5px;
+  }
+
+  .auditt img{
+    height: 130px;
+    width: 160px;
+    margin: 0%;
+    padding: 5px;
+  }
+
+  .bmw220 img{
+    height: 130px;
+    width: 160px;
+    margin: 0%;
+    padding: 5px;
+  }
+
+  .bmwm3 img{
+    height: 130px;
+    width: 160px;
+    margin: 0%;
+    padding: 5px;
+  }
+
+  header nav ul li{
+    padding: 5px 5px;
+    margin: 5px;
+  }
+
+  h3{
+    display: none;
+  }
+
+  footer div ul li a{
+    justify-content: center;
+    padding: 0%;
   }
 }
 
